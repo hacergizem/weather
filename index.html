@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>WeatherApp</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="left-container">
+            <img src="./src/logo.png" alt="">
+            <h1>Weather<b>App</b></h1>
+            <p>Choose a city</p>
+            <input type="text" placeholder="City Name" id="city">
+            <button class="choose-city">See weather!</button>
+            <a class="link" href="https://github.com/hacergizem">Contact me!</a>
+        </div>
+
+        <div class="right-container">
+            <p class="city-info">Gölbaşı, Ankara</p>
+            <img class="weather-image" src="./src/png/sun.png" alt="">
+            <div>
+                <span class="temp-info">6°</span>
+            </div>
+            <p class="weather-description">Mostly cloudy</p>
+
+            <div class="five-day-info">
+                <div class="day">
+                    <p class="day-title">Mon</p>
+                    <img class="day-photo" src="./src/png/storm.png" alt="">
+                    <p class="day-temp">22/16</p>
+                </div>
+                <div class="day">
+                    <p class="day-title">Tue</p>
+                    <img class="day-photo" src="./src/png/hail.png" alt="">
+                    <p class="day-temp">22/16</p>
+                </div>
+                <div class="day">
+                    <p class="day-title">Wed</p>
+                    <img class="day-photo" src="./src/png/sun.png" alt="">
+                    <p class="day-temp">22/16</p>
+                </div>
+                <div class="day">
+                    <p class="day-title">Thur</p>
+                    <img class="day-photo" src="./src/png/cloud.png" alt="">
+                    <p class="day-temp">22/16</p>
+                </div>
+                <div class="day">
+                    <p class="day-title">Fri</p>
+                    <img class="day-photo" src="./src/png/snowflake.png" alt="">
+                    <p class="day-temp">22/16</p>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</body>
+
+<script src="app.js"></script>
+
+</html>
